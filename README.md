@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 FinSight – AI-Powered Fintech Platform
 
-## Getting Started
+FinSight is an intelligent fintech platform that analyzes spending behavior, predicts future expenses, and detects anomalies using advanced AI/ML pipelines.  
+Built with a modern full-stack architecture, FinSight provides dashboards, insights, and automated reporting for smarter personal finance.
 
-First, run the development server:
+---
 
+## 🧠 Features
+
+- 🔐 **Google & Email Authentication**
+- 💸 **Full Expense CRUD**
+- 🤖 **AI-Driven Behavioral Insights**
+- 🚨 **ML-Powered Anomaly Detection**
+- 📊 **Interactive Dashboard Visualizations**
+- 📝 **PDF Reports & Analytics**
+- ☁️ **Cloud-Hosted & Scalable**
+
+---
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+![NextJS](https://img.shields.io/badge/NextJS-000000?logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Shadcn UI](https://img.shields.io/badge/ShadcnUI-000000?logo=shadcnui&logoColor=white)
+
+### **Backend**
+![FastAPI](https://img.shields.io/badge/FastAPI-109989?logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+
+### **Database & Cloud**
+![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-47A248?logo=mongodb&logoColor=white)
+
+### **AI Integration**
+![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?logo=google&logoColor=white)
+
+### **Charts & Reports**
+![Recharts](https://img.shields.io/badge/Recharts-8884d8)
+![PDF](https://img.shields.io/badge/PDF%20Reports-E74C3C)
+
+---
+## ⚙️ Core AI/ML Capabilities
+
+### 🔍 **1. Spending Pattern Analysis**
+Extracts trends from historical data to generate summarized insights.
+
+### 📈 **2. Expense Prediction**
+Uses ML regression models to forecast upcoming expenses.
+
+### ❗ **3. Anomaly Detection**
+Scikit-learn models identify irregular or suspicious financial activity.
+
+### 🧾 **4. AI Reports**
+Gemini-powered natural language summaries + downloadable PDF reports.
+
+---
+
+## 🏁 Getting Started
+
+### **Clone the repository**
 ```bash
+git clone https://github.com/chiragRane-Projects/FinSight.git
+cd FinSight
+
+cd frontend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
+🔗 GitHub
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Repository: https://github.com/chiragRane-Projects
